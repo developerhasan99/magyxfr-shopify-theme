@@ -1,0 +1,118 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "offer_annoucement_4tnBfB": {
+      "type": "offer-annoucement",
+      "disabled": true,
+      "name": "Offer Announcement",
+      "settings": {
+        "background_color": "#000000",
+        "background_color_2": "#e32402",
+        "prepend_text": "St. Patrick's Day-Aktion",
+        "link_text": "Buy 3 – get 1 free",
+        "append_text": "",
+        "link": "shopify://collections/best-sellers"
+      }
+    },
+    "blocky_lys_scrolling_text_bar_GLkKNr": {
+      "type": "blocky-lys-scrolling-text-bar",
+      "blocks": {
+        "text_iDAedj": {
+          "type": "text",
+          "settings": {
+            "text": "BUY 3 – GET 1 FREE"
+          }
+        },
+        "text_QD7JEH": {
+          "type": "text",
+          "settings": {
+            "text": "4.6/5 stars (10,000+ reviews)"
+          }
+        },
+        "text_39tt9p": {
+          "type": "text",
+          "settings": {
+            "text": "FREE SHIPPING ON ORDERS OVER €55"
+          }
+        },
+        "text_DiPtyi": {
+          "type": "text",
+          "settings": {
+            "text": "60-DAY MONEY-BACK GUARANTEE"
+          }
+        },
+        "text_7Mhc9j": {
+          "type": "text",
+          "settings": {
+            "text": "UP TO 95% LESS"
+          }
+        }
+      },
+      "block_order": [
+        "text_iDAedj",
+        "text_QD7JEH",
+        "text_39tt9p",
+        "text_DiPtyi",
+        "text_7Mhc9j"
+      ],
+      "disabled": true,
+      "settings": {
+        "text_size": "1.5",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "speed": 1,
+        "text_spacing": 3,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
+    "offer_timebar_8kAUGX": {
+      "type": "offer-timebar",
+      "name": "Offer Timebar",
+      "settings": {
+        "primary_color": "#000000",
+        "secondary_color": "#f2f2f2",
+        "top_banner_text": "LIMITED QUANTITIES",
+        "prepend_text": "WAREHOUSE SALE",
+        "countdown_date": "",
+        "append_text": "GET 3 FOR THE PRICE OF 2",
+        "link": "shopify://collections/bestsellers"
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-2",
+        "enable_country_selector": true,
+        "enable_language_selector": false,
+        "enable_customer_avatar": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "offer_annoucement_4tnBfB",
+    "blocky_lys_scrolling_text_bar_GLkKNr",
+    "offer_timebar_8kAUGX",
+    "header"
+  ]
+}
