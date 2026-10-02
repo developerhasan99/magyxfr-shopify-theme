@@ -195,7 +195,7 @@
         "perks_x8n9DF": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/quality_check.webp",
+            "perk_image": "shopify://shop_images/quality_check.png",
             "perk_title": "French Fragrance Quality",
             "perk_content": "Made with the same care as leading luxury brands."
           }
@@ -203,7 +203,7 @@
         "perks_yTdgqz": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/money_back_g.webp",
+            "perk_image": "shopify://shop_images/money_back_g.png",
             "perk_title": "60-day money-back guarantee",
             "perk_content": "Not convinced? Send your order back within 60 days and get your money back"
           }
@@ -211,7 +211,7 @@
         "perks_7zj6gB": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/long_lasting.webp",
+            "perk_image": "shopify://shop_images/long_lasting.png",
             "perk_title": "Long-Lasting Scent",
             "perk_content": "Lasts over 12 hours on the skin (some report even longer lasting wear)."
           }
@@ -346,7 +346,7 @@
     "image_and_text_iNik9g": {
       "type": "image-and-text",
       "blocks": {
-        "heading_CKVnKD": {
+        "heading_ax7WWJ": {
           "type": "heading",
           "settings": {
             "content": "No cheap imports. Made within the EU.",
@@ -355,7 +355,7 @@
             "mobile_font_size": 24
           }
         },
-        "text_6aLW7x": {
+        "text_gzPVkb": {
           "type": "text",
           "settings": {
             "content": "<p>Our European production guarantees the highest quality standards and allows us to control every step of the manufacturing process.<br/><br/>From the selection of premium raw materials to the careful filling of each bottle, we ensure that every product meets our rigorous quality and craftsmanship requirements.</p>",
@@ -365,12 +365,12 @@
         }
       },
       "block_order": [
-        "heading_CKVnKD",
-        "text_6aLW7x"
+        "heading_ax7WWJ",
+        "text_gzPVkb"
       ],
       "settings": {
         "background_color": "#ffffff",
-        "image": "shopify://shop_images/MAGYX_Site_02_1.webp",
+        "image": "shopify://shop_images/MAGYX_Site_02_1.jpg",
         "rounded_image": true,
         "image_placement": "1",
         "mobile_image_placement": "under_heading",
@@ -404,6 +404,7 @@
         "review_yEDVJD": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.35.37_AM.jpg",
             "content": "<p>\"Easy process throw payment and trust worthy website\"</p>",
             "author": "Robinson K.",
             "date": "2 days ago",
@@ -427,6 +428,7 @@
         "review_XfwcAY": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/WhatsApp_Image_2026-09-09_at_8.33.40_AM.jpg",
             "content": "<p>\"I had the opportunity to try their perfumes, they have a great price, a wide range of fragrances but above all their perfumes are persistent and long-lasting highly recommended!\"</p>",
             "author": "Clara P.",
             "date": "3 days ago",
@@ -462,6 +464,7 @@
         "review_icFmQQ": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h55_49.jpg",
             "content": "<p>\"the perfume is mega-true, beautiful scent, I fell in love with it\"</p>",
             "author": "Tiana N.",
             "date": "3 Weeks ago",
@@ -484,6 +487,7 @@
         "review_aThE8h": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h58_13.jpg",
             "content": "<p>\"Best of the BEST!\"</p>",
             "author": "Alex W.",
             "date": "3 Weeks ago",
@@ -530,6 +534,7 @@
         "review_wbXdLy": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-02_16h41_42.jpg",
             "content": "<p>\"It smells very good, but it doesn't last as long as it should.\"</p>",
             "author": "Terence M.",
             "date": "2 months ago",
@@ -575,6 +580,7 @@
         "review_KK6jhW": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/magic_revie.jpg",
             "content": "<p>\"The smell was consistant while wearing it for a long while. No complains there\"</p>",
             "author": "Michael R.",
             "date": "4 months ago",
@@ -586,6 +592,7 @@
         "review_HjyT3p": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/261_revie.jpg",
             "content": "<p>\"Very high quality!!\"</p>",
             "author": "Alvarez P.",
             "date": "4 months ago",
@@ -597,6 +604,7 @@
         "review_6Bhttk": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2026-07-22_16h43_29.jpg",
             "content": "<p>\"These smells amazing , good price fast delivery.\"</p>",
             "author": "Anne E.",
             "date": "4 months ago",
