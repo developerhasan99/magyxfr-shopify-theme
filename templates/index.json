@@ -702,6 +702,7 @@
         "review_zAw7dR": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/2_24.png",
             "content": "<p>\"I really like this brand and the fragrance are amazing..\"</p>",
             "author": "Lilian M.",
             "date": "1 day ago",
