@@ -85,7 +85,7 @@
           if product.title contains 'No.'
             assign sq_no = product.title | split: 'No.' | last | strip | split: ' ' | first
           endif
-          assign sq_desc = product.metafields.custom.inspiration.value.name | default: ''
+          assign sq_desc = product.metafields.custom.inspired_by.value.title | default: ''
           assign sq_emo = product.metafields.custom.scent_quiz_emo | default: ''
 
           assign sq_tags = product.metafields.custom.custom_label | default: ''
@@ -96,7 +96,7 @@
           assign sq_accent = sq_pair[0]
           assign sq_accent2 = sq_pair[1]
 
-          assign sq_inspiration_image = product.metafields.custom.inspiration.value.image
+          assign sq_inspiration_image = product.metafields.custom.inspired_by.value.image
         -%}
         {
           name: {{ product.title | json }},

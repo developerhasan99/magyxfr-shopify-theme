@@ -466,8 +466,8 @@
             assign card_brand = grid_product.metafields.custom.brand.value | join: '||'
             assign card_gender = grid_product.metafields.custom.gender.value | join: '||'
             assign insp = ''
-            if grid_product.metafields.custom.inspiration.value
-              assign insp = grid_product.metafields.custom.inspiration.value.name
+            if grid_product.metafields.custom.inspired_by.value
+              assign insp = grid_product.metafields.custom.inspired_by.value.title
             endif
 
             comment

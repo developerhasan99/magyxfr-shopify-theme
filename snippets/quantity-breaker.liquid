@@ -444,7 +444,7 @@
         id: {{ product.id }},
         name: "{{ product.title | escape }}",
         image: "{{ product.featured_image | image_url: width: 120, height: 120 }}",
-        inspiration_name: "{% if product.metafields.custom.inspiration.value %}{{ product.metafields.custom.inspiration.value.name | escape }}{% endif %}"
+        inspiration_name: "{% if product.metafields.custom.inspired_by.value %}{{ product.metafields.custom.inspired_by.value.title | escape }}{% endif %}"
       },
 
       availableProducts: [
@@ -453,7 +453,7 @@
             id: {{ bonus_product.id }},
             name: "{{ bonus_product.title | escape }}",
             image: "{{ bonus_product.featured_image | image_url: width: 120, height: 120 }}",
-            inspiration_name: "{% if bonus_product.metafields.custom.inspiration.value %}{{ bonus_product.metafields.custom.inspiration.value.name | escape }}{% endif %}",
+            inspiration_name: "{% if bonus_product.metafields.custom.inspired_by.value %}{{ bonus_product.metafields.custom.inspired_by.value.title | escape }}{% endif %}",
             occasion: "{{ bonus_product.metafields.custom.occasion | escape }}",
             tags: {{ bonus_product.tags | json }},
             variants: {

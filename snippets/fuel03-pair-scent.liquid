@@ -10,14 +10,14 @@
   - product: {Object} the product being viewed (required)
   - section: {Object} the hosting section (required)
   - mode: {String} 'assets' | 'v1' | 'v2m' | 'v2d' (required). 'assets' emits
-    the stylesheet and the QA reveal script once per page and no markup; the
-    other three each render one placement and name its wrapper modifier.
+  the stylesheet and the QA reveal script once per page and no markup; the
+  other three each render one placement and name its wrapper modifier.
   - block: {Object} a fuel03_pair_scent block. Pass it when rendering from
-    that block's own case; when absent the snippet finds the matching block
-    in section.blocks itself.
+  that block's own case; when absent the snippet finds the matching block
+  in section.blocks itself.
   - host_block: {Object} the block whose case renders this placement, when
-    that is not the fuel03_pair_scent block itself. Its shopify_attributes go
-    on the wrapper so the theme editor can still select it.
+  that is not the fuel03_pair_scent block itself. Its shopify_attributes go
+  on the wrapper so the theme editor can still select it.
 
   Usage:
   {% render 'fuel03-pair-scent', product: product, section: section, block: block, mode: 'v1' %}
@@ -63,7 +63,7 @@
     assign pair_name = pair_block.settings.pair_name | default: pair_product.title
     assign inspired_name = pair_block.settings.inspired_name
     if inspired_name == blank
-      assign inspired_name = pair_product.metafields.custom.inspiration.value.name
+      assign inspired_name = pair_product.metafields.custom.inspired_by.value.title
     endif
     assign form_id = 'fuel03-pair-form-' | append: mode | append: '-' | append: section.id
   -%}
@@ -93,7 +93,10 @@
         }
       </script>
     {%- else -%}
-      <div class="fuel03-pair-scent fuel03-pair-scent--{{ mode }}" style="display: none;" {{ wrapper_block.shopify_attributes }}>
+      <div
+        class="fuel03-pair-scent fuel03-pair-scent--{{ mode }}"
+        style="display: none;"
+        {{ wrapper_block.shopify_attributes }}>
         <div class="fuel03-pair-scent__card">
           <div class="fuel03-pair-scent__top">
             <div class="fuel03-pair-scent__text">
@@ -106,8 +109,21 @@
               {%- endif -%}
               {%- if inspired_name != blank -%}
                 <div class="fuel03-pair-scent__inspired">
-                  <svg preserveAspectRatio="none" overflow="visible" width="16.032" height="16" viewBox="0 0 16.032 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.99301 0C6.99301 3.1968 9.59041 5.79421 12.7872 5.79421V6.99301C9.59441 6.99301 6.99301 9.59041 6.99301 12.7872H5.79421C5.79421 9.59041 3.1968 6.99301 0 6.99301V5.79421C3.1968 5.79421 5.79421 3.1968 5.79421 0H6.99301ZM2.82118 6.39361C4.41424 7.09955 5.68766 8.37297 6.39361 9.96603C7.09955 8.37297 8.37297 7.09955 9.96603 6.39361C8.37297 5.68766 7.09955 4.41424 6.39361 2.82118C5.68766 4.41424 4.41424 5.68766 2.82118 6.39361ZM12.2358 9.60639H13.4346C13.4346 11.037 14.6014 12.2038 16.032 12.2038V13.4026C14.6014 13.4026 13.4346 14.5694 13.4346 16H12.2358C12.2358 14.5694 11.0689 13.4026 9.63836 13.4026V12.2038C11.0689 12.2038 12.2358 11.037 12.2358 9.60639ZM11.6763 12.8032C12.1439 13.1029 12.5395 13.4985 12.8352 13.962C13.1349 13.4945 13.5305 13.0989 13.994 12.8032C13.5288 12.5049 13.1335 12.1096 12.8352 11.6444C12.5369 12.1096 12.1416 12.5049 11.6763 12.8032Z" fill="black"/>
+                  <svg
+                    preserveAspectRatio="none"
+                    overflow="visible"
+                    width="16.032"
+                    height="16"
+                    viewBox="0 0 16.032 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    aria-hidden="true"
+                    focusable="false">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M6.99301 0C6.99301 3.1968 9.59041 5.79421 12.7872 5.79421V6.99301C9.59441 6.99301 6.99301 9.59041 6.99301 12.7872H5.79421C5.79421 9.59041 3.1968 6.99301 0 6.99301V5.79421C3.1968 5.79421 5.79421 3.1968 5.79421 0H6.99301ZM2.82118 6.39361C4.41424 7.09955 5.68766 8.37297 6.39361 9.96603C7.09955 8.37297 8.37297 7.09955 9.96603 6.39361C8.37297 5.68766 7.09955 4.41424 6.39361 2.82118C5.68766 4.41424 4.41424 5.68766 2.82118 6.39361ZM12.2358 9.60639H13.4346C13.4346 11.037 14.6014 12.2038 16.032 12.2038V13.4026C14.6014 13.4026 13.4346 14.5694 13.4346 16H12.2358C12.2358 14.5694 11.0689 13.4026 9.63836 13.4026V12.2038C11.0689 12.2038 12.2358 11.037 12.2358 9.60639ZM11.6763 12.8032C12.1439 13.1029 12.5395 13.4985 12.8352 13.962C13.1349 13.4945 13.5305 13.0989 13.994 12.8032C13.5288 12.5049 13.1335 12.1096 12.8352 11.6444C12.5369 12.1096 12.1416 12.5049 11.6763 12.8032Z"
+                      fill="black" />
                   </svg>
                   <span>Inspired by {{ inspired_name | escape }}</span>
                 </div>
@@ -122,13 +138,30 @@
                 loading="lazy">
             </div>
           </div>
-          <product-form class="fuel03-pair-scent__form" data-section-id="{{ section.id }}" data-hide-errors="false">
-            {%- form 'product', pair_product, id: form_id, novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
-              <input type="hidden" name="id" value="{{ pair_variant.id }}">
+          <product-form
+            class="fuel03-pair-scent__form"
+            data-section-id="{{ section.id }}"
+            data-hide-errors="false">
+            {%- form 'product'
+              , pair_product
+              , id: form_id
+              , novalidate: 'novalidate'
+              , data-type: 'add-to-cart-form' -%}
+              <input
+                type="hidden"
+                name="id"
+                value="{{ pair_variant.id }}">
               {%- if pair_product.metafields.custom.nuta != blank -%}
-                <input type="hidden" name="properties[Inspired By]" value="{{ pair_product.metafields.custom.nuta | escape }}">
+                <input
+                  type="hidden"
+                  name="properties[Inspired By]"
+                  value="{{ pair_product.metafields.custom.nuta | escape }}">
               {%- endif -%}
-              <button type="submit" name="add" class="fuel03-pair-scent__atc" aria-label="Add to cart: {{ pair_name | escape }}">
+              <button
+                type="submit"
+                name="add"
+                class="fuel03-pair-scent__atc"
+                aria-label="Add to cart: {{ pair_name | escape }}">
                 <span>Add to cart</span>
                 {%- render 'loading-spinner' -%}
               </button>

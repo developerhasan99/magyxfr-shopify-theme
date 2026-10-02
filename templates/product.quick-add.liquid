@@ -70,7 +70,7 @@
             {% if product.template_suffix == 'cro-deck' %}
               <h1 class="font-[700] leading-tight !tracking-normal text-xl md:text-2xl my-0 {% if product.tags contains 'bestseller' or product.tags contains 'onsale' %}pt-8{% endif %}">
                 {% assign title_list = product.title | split: '-' %}
-                <span class="title-prefix">Inspired by</span> {{ product.metafields.custom.inspiration.value.name }} - {{ title_list[1] }}
+                <span class="title-prefix">Inspired by</span> {{ product.metafields.custom.inspired_by.value.title }} - {{ title_list[1] }}
               </h1>
             {% else %}
               <h1 class="font-[700] leading-tight !tracking-normal text-xl md:text-2xl my-0 {% if product.tags contains 'bestseller' or product.tags contains 'onsale' %}pt-8{% endif %}">
@@ -89,9 +89,9 @@
           </div>
 
           <div class="flex items-center gap-2 mb-3">
-            <img style="filter: blur(2px);" class="object-contain object-center bg-white" src="{{ product.metafields.custom.inspiration.value.image | image_url }}" alt="{{ product.metafields.custom.inspiration.value.image.alt | escape }}" width="24" height="24">
+            <img style="filter: blur(2px);" class="object-contain object-center bg-white" src="{{ product.metafields.custom.inspired_by.value.image | image_url }}" alt="{{ product.metafields.custom.inspired_by.value.image.alt | escape }}" width="24" height="24">
             <p class="text-sm my-0 whitespace-nowrap">Inspired by:</p>
-            <h4 class="font-semibold my-0 line-clamp-1 inspiration_heading">{{ product.metafields.custom.inspiration.value.name }}</h4>
+            <h4 class="font-semibold my-0 line-clamp-1 inspiration_heading">{{ product.metafields.custom.inspired_by.value.title }}</h4>
           </div>
 
           {% render 'scent-profiling-quick-add' %}
