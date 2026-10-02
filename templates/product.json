@@ -207,7 +207,7 @@
         "background_color": "#fcfbf9",
         "title": "You may also like",
         "description": "",
-        "collection": "best-sellers",
+        "collection": "bestsellers",
         "button_text": "View All",
         "button_link": "shopify://collections/all",
         "padding_top": 0,
@@ -220,7 +220,6 @@
         "perks_x8n9DF": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/quality_check.webp",
             "perk_title": "French Fragrance Quality",
             "perk_content": "Made with the same care as leading luxury brands."
           }
@@ -228,7 +227,6 @@
         "perks_yTdgqz": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/money_back_g.webp",
             "perk_title": "60-day money-back guarantee",
             "perk_content": "Not convinced? Send your order back within 60 days and get your money back"
           }
@@ -236,7 +234,6 @@
         "perks_7zj6gB": {
           "type": "perks",
           "settings": {
-            "perk_image": "shopify://shop_images/long_lasting.webp",
             "perk_title": "Long-Lasting Scent",
             "perk_content": "Lasts over 12 hours on the skin (some report even longer lasting wear)."
           }
@@ -385,7 +382,6 @@
       ],
       "settings": {
         "background_color": "#ffffff",
-        "image": "shopify://shop_images/MAGYX_Site_02_1.webp",
         "rounded_image": true,
         "image_placement": "1",
         "mobile_image_placement": "under_heading",
