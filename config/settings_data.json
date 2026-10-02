@@ -151,19 +151,19 @@
     },
     "content_for_index": [],
     "blocks": {
-      "14818028230436078177": {
-        "type": "shopify://apps/langify/blocks/langify/b50c2edb-8c63-4e36-9e7c-a7fdd62ddb8f",
-        "disabled": false,
-        "settings": {
-          "theme_id": "",
-          "block_lib_css": false,
-          "rtl_css": "body {\n  direction: rtl;\n}"
-        }
-      },
       "855628211100114053": {
         "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": true,
         "settings": {}
+      },
+      "14818028230436078177": {
+        "type": "shopify://apps/langify/blocks/langify/b50c2edb-8c63-4e36-9e7c-a7fdd62ddb8f",
+        "disabled": false,
+        "settings": {
+          "theme_id": "159557845181",
+          "block_lib_css": false,
+          "rtl_css": "body {\n  direction: rtl;\n}"
+        }
       }
     },
     "color_schemes": {
