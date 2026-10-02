@@ -1,13 +1,13 @@
 {%- comment -%} 
-    SITEWIDE SCHEMA: Organization + WebSite
-    Put in theme.liquid head. 
+      SITEWIDE SCHEMA: Organization + WebSite
+      Put in theme.liquid head. 
 {%- endcomment -%}
 
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
-      {
+    {
         "@type": "Organization",
         "@id": "{{ shop.url }} /#organization",
         "name": {{ shop.name | json }},
@@ -20,23 +20,23 @@
           OPTIONAL social links : Add your socials in theme settings or hardcode below.
           {%- endcomment -%}
           {%- if settings.social_instagram_link != blank or settings.social_tiktok_link != blank or settings.social_facebook_link != blank or settings.social_youtube_link != blank -%},
-            "sameAs" : [{%- assign socials = "" -%}{%- if settings.social_instagram_link != blank -%}
-                {{ settings.social_instagram_link | json }}
-                {%- assign socials = "x" -%}{%- endif -%} {%- if settings.social_tiktok_link != blank -%}{% if socials != "" %},{% endif %}{{ settings.social_tiktok_link | json }}{%- assign socials = "x" -%}{%- endif -%} {%- if settings.social_facebook_link != blank -%}{% if socials != "" %},{% endif %}{{ settings.social_facebook_link | json }}{%- assign socials = "x" -%}{%- endif -%} {%- if settings.social_youtube_link != blank -%}{% if socials != "" %},{% endif %}{{ settings.social_youtube_link | json }}{%- assign socials = "x" -%}{%- endif -%}]
-        {%- endif -%}
+            "sameAs" : [{%- assign socials = "" -%}{%- if settings.social_instagram_link != blank -%}{{ settings.social_instagram_link | json }}
+              {%- assign socials = "x" -%}
+              {%- endif -%} {%- if settings.social_tiktok_link != blank -%}{% if socials != "" %},{% endif %}{{ settings.social_tiktok_link | json }}{%- assign socials = "x" -%}{%- endif -%} {%- if settings.social_facebook_link != blank -%}{% if socials != "" %},{% endif %}{{ settings.social_facebook_link | json }}{%- assign socials = "x" -%}{%- endif -%} {%- if settings.social_youtube_link != blank -%}{% if socials != "" %},{% endif %}{{ settings.social_youtube_link | json }}{%- assign socials = "x" -%}{%- endif -%}]
+      {%- endif -%}
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ shop.url }} /#website",
+      "url": {{ shop.url | json }},
+      "name": {{ shop.name | json }},
+      "publisher": {
+        "@id": "{{ shop.url }} /#organization"
       },
-      {
-        "@type": "WebSite",
-        "@id": "{{ shop.url }} /#website",
-        "url": {{ shop.url | json }},
-        "name": {{ shop.name | json }},
-        "publisher": {
-          "@id": "{{ shop.url }} /#organization"
-        },
-        "inLanguage": {{ request.locale.iso_code | json }}
-      }
-    ]
-  }
+      "inLanguage": {{ request.locale.iso_code | json }}
+    }
+  ]
+}
 </script>
 
 {% if template == 'index' %}
@@ -45,8 +45,8 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Magyx",
-      "url": "https://magyx.co",
-      "logo": "https://magyx.co/cdn/shop/files/catsoft-logo.svg",
+      "url": "https://magyx.fr",
+      "logo": "https://magyx.fr/cdn/shop/files/catsoft-logo.svg",
       "description": "Premium Designer Fragrance Dupes - Creed, Dior & Tom Ford Alternatives",
       "address": {
         "@type": "PostalAddress",
@@ -59,7 +59,7 @@
         "@type": "ContactPoint",
         "telephone": "+18883736114",
         "contactType": "customer service",
-        "email": "hello@magyx.co"
+        "email": "hello@magyx.fr"
       }
     }
   </script>
@@ -69,10 +69,10 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Magyx",
-      "url": "https://magyx.co",
+      "url": "https://magyx.fr",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://magyx.co/search?q={search_term_string}",
+        "target": "https://magyx.fr/search?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
