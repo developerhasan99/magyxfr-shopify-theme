@@ -230,9 +230,9 @@
         "background_color": "#fcfbf9",
         "title": "Best Sellers 🔥",
         "description": "",
-        "collection": "best-sellers",
+        "collection": "bestsellers",
         "button_text": "View all",
-        "button_link": "shopify://collections/best-sellers",
+        "button_link": "shopify://collections/bestsellers",
         "padding_top": 72,
         "padding_bottom": 40
       }
