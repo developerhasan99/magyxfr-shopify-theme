@@ -534,6 +534,7 @@
         "category_yXjfNN": {
           "type": "category",
           "settings": {
+            "image": "shopify://shop_images/MAGYX_Site_Bundle_Save_1.jpg",
             "text": "Bundle & save",
             "link": "shopify://collections/bundle-save"
           }
