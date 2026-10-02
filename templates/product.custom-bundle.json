@@ -92,13 +92,6 @@
           "disabled": true,
           "settings": {}
         },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "collapsible_tab_XYmgtQ": {
           "type": "collapsible_tab",
           "settings": {
@@ -142,6 +135,13 @@
             "icon": "star",
             "content": "<p>Please be aware that products mentioned throughout our site are a mere guide and in no circumstance should be mistaken for the actual high street, designer or Niche brand. Names and copyrights, used or unused, are properties of their respective manufacturers and/or designers. <br/><br/>These are simply inspirations, and are not ‘identical’ to any other fragrance or original.<br/><br/>Tryscent perfumes are not to be confused with originals and we have no affiliation with the manufacturers of these unnamed designer brands. <br/><br/>All ‘Trademarks’, used or unused, are property of their respective owners. We are not endorsed by, directly affiliated with, maintained, authorised, or sponsored by any trademark holder referenced or unreferenced herein. <br/><br/>The use of any product name is for identification and reference purposes only, and does not imply any association with the trademark holder.</p>",
             "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
@@ -900,6 +900,7 @@
     },
     "cupid-images-slider": {
       "type": "cupid-images-slider",
+      "disabled": true,
       "settings": {
         "padding_top": 72,
         "padding_bottom": 72,
