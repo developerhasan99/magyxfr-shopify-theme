@@ -1045,6 +1045,7 @@
         "review_EniFK9": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Magyx_UGC_30.png",
             "content": "<p>\"Excellent product, smells fantastically good. I always have people asking me about my fragrance and what I use.\"</p>",
             "author": "Damario R",
             "date": "7 months ago",
@@ -1056,6 +1057,7 @@
         "review_r8Gi8i": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Magyx_UGC_12.png",
             "content": "<p>\"Super brand and excellent products!\"</p>",
             "author": "Juliana B",
             "date": "4 months ago",
@@ -1067,6 +1069,7 @@
         "review_LRkiUH": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Magyx_UGC_17.png",
             "content": "<p>\"After a small delay, I finally received my Magic Perfume perfumes and they are exactly as they should be! I can hardly believe how much they match the originals — for reference, I received \"Ylang Ylang Rose Jasmine\" and \"Aldehydes Rose Sandalwood\", these are really beautiful fragrances.\"</p>",
             "author": "Gabriella K",
             "date": "7 months ago",
