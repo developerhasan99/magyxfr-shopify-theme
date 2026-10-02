@@ -1009,6 +1009,7 @@
         "review_GbhyC3": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Magyx_UGC_18.png",
             "content": "<p>\"Oh my God, I loved it. Wow! Exactly like the original and it lasts all day! ❤️‍🔥❤️‍🔥\"</p>",
             "author": "Marianne",
             "date": "4 months ago",
@@ -1020,6 +1021,7 @@
         "review_C3bd9b": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Magyx_UGC_27.png",
             "content": "<p>\"The fragrance of this product is super rich and I love how beautiful the bottle and its design are. I would really use it again.\"</p>",
             "author": "Eliannys Y",
             "date": "7 months ago",
@@ -1031,6 +1033,7 @@
         "review_NYCPwJ": {
           "type": "review",
           "settings": {
+            "review_image": "shopify://shop_images/Magyx_UGC_16.png",
             "content": "<p>\"I like it! I appreciate this fragrance. Good smell.\"</p>",
             "author": "Metrine M",
             "date": "7 months ago",
