@@ -3923,5 +3923,39 @@
         }
       }
     }
+  },
+  "bundle": {
+    "tsr_offer_price_suffix": "par bouteille",
+    "choose_your_perfume": "Choisissez votre parfum",
+    "select_more": "SÉLECTIONNEZ {{ count }} ENCORE",
+    "shop_now": "ACHETER MAINTENANT",
+    "filter_new_arrivals": "Nouveautés",
+    "your_bundle_is_ready": "VOTRE LOT EST PRÊT ! 👑",
+    "add_more_suffix_plural": " AUTRES PARFUMS",
+    "tsr_offer_heading": "Notre meilleure offre : composez votre propre pack !",
+    "top_sellers_men": "Meilleures ventes pour hommes",
+    "price_per_bottle": "Cela revient à seulement {{ price }} par bouteille",
+    "tsr_offer_save": "Économisez {{ percent }}%",
+    "filter_women": "Femmes",
+    "add_more_suffix_singular": " ENCORE PLUS DE PARFUM",
+    "top_sellers": "Meilleures ventes",
+    "add_more_prefix": "AJOUTER ",
+    "top_sellers_women": "Meilleures ventes Femmes",
+    "inspired_by": "Inspiré par :",
+    "tsr_offer_price_prefix": "Seulement",
+    "upgrade_cta": "Passez à la version {{ size }} ML pour {{ price }} plus d'informations.",
+    "free_bottle": "Bouteille gratuite",
+    "add_more_scent": "AJOUTER {{ count }} À LA LISTE DES PARFUMS",
+    "filter_men": "Hommes",
+    "add_more_scents": "AJOUTER {{ count }} AUX AUTRES PARFUMS",
+    "filter_all": "Tout",
+    "redirecting_to_checkout": "Redirigé vers la page de paiement..."
+  },
+  "timebar": {
+    "countdown": {
+      "days": "Jours",
+      "hours": "Horaires",
+      "minutes": "Procès-verbal"
+    }
   }
 }
