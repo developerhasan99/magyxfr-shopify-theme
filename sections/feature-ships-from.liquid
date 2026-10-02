@@ -21,7 +21,7 @@
       <div class="flex flex-col items-center gap-1">
         <img
           class="h-7 md:h-10 w-auto"
-          src="/cdn/shop/files/Screenshot_2026-02-03_at_12.00.15_PM.webp?v=1771402872&amp;width=150"
+          src="{{ 'shipping-truck.jpeg' | asset_url }}"
           loading="lazy"
           height="110"
           width="150"
@@ -55,10 +55,12 @@
         "id": "background_color",
         "label": "Background Color",
         "default": "#fcfbf9"
-      }, {
+      },
+      {
         "type": "header",
         "content": "t:sections.all.padding.section_padding_heading"
-      }, {
+      },
+      {
         "type": "range",
         "id": "padding_top",
         "min": 0,
@@ -67,7 +69,8 @@
         "unit": "px",
         "label": "t:sections.all.padding.padding_top",
         "default": 36
-      }, {
+      },
+      {
         "type": "range",
         "id": "padding_bottom",
         "min": 0,
@@ -87,12 +90,14 @@
             "type": "image_picker",
             "id": "perk_image",
             "label": "Perk Image"
-          }, {
+          },
+          {
             "type": "text",
             "id": "perk_title",
             "label": "Perk Title",
             "default": "Perk Title"
-          }, {
+          },
+          {
             "type": "text",
             "id": "perk_content",
             "label": "Perk Content",
