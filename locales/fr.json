@@ -3955,7 +3955,8 @@
     "countdown": {
       "days": "Jours",
       "hours": "Horaires",
-      "minutes": "Procès-verbal"
+      "minutes": "Procès-verbal",
+      "seconds": "Secondes"
     }
   }
 }
