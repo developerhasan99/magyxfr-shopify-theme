@@ -5,7 +5,7 @@
 {% liquid
   # Products tagged 'own_gallery' show only their own images, no marketing images
   unless product.tags contains 'own_gallery'
-    assign marketing_images = shop.metaobjects['marketing_images']['english'].images.value
+    assign marketing_images = shop.metaobjects['marketing_images']['french'].images.value
   endunless
 %}
 
