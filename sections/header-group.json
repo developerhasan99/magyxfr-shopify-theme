@@ -75,8 +75,8 @@
         "payment_icon_GE6fq4": {
           "type": "payment_icon",
           "settings": {
-            "icon": "shopify://shop_images/us-flag.webp",
-            "label": "US Wide"
+            "icon": "shopify://shop_images/fr-flag.webp",
+            "label": "FR Wide"
           }
         },
         "payment_icon_qP37UR": {
