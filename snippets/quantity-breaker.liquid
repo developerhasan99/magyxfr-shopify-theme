@@ -6,7 +6,7 @@
   for variant in product.variants
     assign variant_title_down = variant.title | downcase
 
-    if variant_title_down contains '50'
+    if variant_title_down contains '100'
       assign selected_variant = variant
       break
     endif
@@ -40,14 +40,14 @@
   x-data
   x-effect="$store.qb.currentPrice; $store.qb.currentCompare; $store.qb.syncGlobalPrices()">
   {% if product.variants.size > 1 %}
-    {% comment %} Variant Selector — 30 / 50 / 100 ml {% endcomment %}
+    {% comment %} Variant Selector — 100 / 50 / 30 ml {% endcomment %}
     <div class="flex justify-between items-center mb-3 !mt-6">
       <h2 class="m-0 text-sm md:text-base font-semibold">Select size:</h2>
       <div class="text-xs md:text-sm italic text-gray-500">80% of our customers buy 50 ml or more</div>
     </div>
 
     <div class="grid grid-cols-3 gap-3" id="variant-selector">
-      {% for variant in product.variants %}
+      {% for variant in product.variants reversed %}
         {% liquid
           assign variant_ml = 0
           if variant.title contains '100'
