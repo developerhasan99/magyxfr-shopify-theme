@@ -1211,6 +1211,7 @@
     },
     "175501299681a2aa62": {
       "type": "apps",
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
@@ -1270,6 +1271,7 @@
     },
     "175501299598bc050d": {
       "type": "apps",
+      "disabled": true,
       "settings": {
         "include_margins": true
       }
