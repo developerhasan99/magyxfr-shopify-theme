@@ -118,36 +118,36 @@
           "settings": {
             "label": "For Him",
             "link_list": ""
-          }
+          },
+          "disabled": true
         },
         "sub_menu_items_6Yj9eC": {
           "type": "sub_menu_items",
           "settings": {
             "label": "For Her",
             "link_list": ""
-          }
+          },
+          "disabled": true
         },
         "mega_menu_item_kgEd9W": {
           "type": "mega_menu_item",
-          "disabled": true,
           "settings": {
             "label": "For Him",
-            "collection": "top-sellers-men"
+            "collection": "pour-homme"
           }
         },
         "mega_menu_item_PtL8ng": {
           "type": "mega_menu_item",
-          "disabled": true,
           "settings": {
             "label": "For Her",
-            "collection": "top-seller-women"
+            "collection": "pour-femme"
           }
         },
         "mega_menu_item_LAwC3B": {
           "type": "mega_menu_item",
           "settings": {
             "label": "Unisex",
-            "collection": "unisex"
+            "collection": "unisexe"
           }
         },
         "menu_item_8Yf436": {
