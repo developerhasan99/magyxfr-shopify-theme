@@ -262,7 +262,7 @@
             "author": "Benjamin M.",
             "date": "2 days ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -274,7 +274,7 @@
             "author": "Sharley A.",
             "date": "2 days ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -286,7 +286,7 @@
             "author": "Santosh K.",
             "date": "2 days ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         }
@@ -707,7 +707,7 @@
             "author": "Lilian M.",
             "date": "1 day ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -719,7 +719,7 @@
             "author": "Robinson K.",
             "date": "2 days ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -731,7 +731,7 @@
             "author": "Maria M",
             "date": "2 days ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -743,7 +743,7 @@
             "author": "Clara P.",
             "date": "3 days ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -755,7 +755,7 @@
             "author": "Adele S.",
             "date": "2 Weeks ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -767,7 +767,7 @@
             "author": "Jenniffer W.",
             "date": "3 Weeks ago",
             "rating": 4,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -779,7 +779,7 @@
             "author": "Tiana N.",
             "date": "3 Weeks ago",
             "rating": 4,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -790,7 +790,7 @@
             "author": "Michael T.",
             "date": "2 Weeks ago",
             "rating": 4,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -802,7 +802,7 @@
             "author": "Alex W.",
             "date": "3 Weeks ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -825,7 +825,7 @@
             "author": "Lionel M.",
             "date": "3 Weeks ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -837,7 +837,7 @@
             "author": "Lidis A.",
             "date": "2 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -860,7 +860,7 @@
             "author": "Castillo B.",
             "date": "3 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -871,7 +871,7 @@
             "author": "Kamila G.",
             "date": "3 Months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -895,7 +895,7 @@
             "author": "Michael R.",
             "date": "4 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -907,7 +907,7 @@
             "author": "Alvarez P.",
             "date": "4 months ago",
             "rating": 4,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -919,7 +919,7 @@
             "author": "Anne E.",
             "date": "4 months ago",
             "rating": 4,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -930,7 +930,7 @@
             "author": "Lucy R",
             "date": "4 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -954,7 +954,7 @@
             "author": "Amanda G",
             "date": "5 months ago",
             "rating": 4,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -966,7 +966,7 @@
             "author": "Alex S.",
             "date": "6 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -978,7 +978,7 @@
             "author": "Roxanne S",
             "date": "5 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -1002,7 +1002,7 @@
             "author": "EM",
             "date": "4 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -1014,7 +1014,7 @@
             "author": "Marianne",
             "date": "4 months ago",
             "rating": 4,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -1026,7 +1026,7 @@
             "author": "Eliannys Y",
             "date": "7 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -1050,7 +1050,7 @@
             "author": "Damario R",
             "date": "7 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -1062,7 +1062,7 @@
             "author": "Juliana B",
             "date": "4 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -1074,7 +1074,7 @@
             "author": "Gabriella K",
             "date": "7 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -1086,7 +1086,7 @@
             "author": "Rosa B",
             "date": "7 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -1098,7 +1098,7 @@
             "author": "Sean P",
             "date": "4 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -1110,7 +1110,7 @@
             "author": "Angel",
             "date": "8 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -1122,7 +1122,7 @@
             "author": "Hwan H",
             "date": "8 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         },
@@ -1134,7 +1134,7 @@
             "author": "Lauri E",
             "date": "8 months ago",
             "rating": 5,
-            "show_verified_badge": true,
+            "show_verified_badge": false,
             "product": ""
           }
         }
