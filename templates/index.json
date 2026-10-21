@@ -165,7 +165,7 @@
           "settings": {
             "perk_image": "shopify://shop_images/long_lasting.png",
             "perk_title": "Long-Lasting Scent",
-            "perk_content": "Lasts over 12 hours on the skin (some report even longer lasting wear)."
+            "perk_content": "Lasts 8-12 hours on the skin."
           }
         }
       },
@@ -314,7 +314,7 @@
         "perk_wnTHMw": {
           "type": "perk",
           "settings": {
-            "text": "Lasts 12+ Hours"
+            "text": "Lasts 8-12 Hours"
           }
         },
         "perk_VkFF3N": {
@@ -494,7 +494,7 @@
         "perk_HrfwXR": {
           "type": "perk",
           "settings": {
-            "text": "Lasts 12+ Hours"
+            "text": "Lasts 8-12 Hours"
           }
         },
         "perk_d4dqHJ": {
