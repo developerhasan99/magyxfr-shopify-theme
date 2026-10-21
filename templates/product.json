@@ -19,7 +19,7 @@
         "custom_rating_text_qMgzTM": {
           "type": "custom_rating_text",
           "settings": {
-            "text": "4.9/5 based on over 10,000 reviews"
+            "text": "4.9/5 based on over 10,000 customers"
           }
         },
         "inspired_by_idtdrk": {
@@ -48,7 +48,7 @@
           "type": "money_back",
           "settings": {
             "title": "Try it for 60 days, risk-free.",
-            "text": "Fewer than 0.5% of buyers use our money-back guarantee."
+            "text": "If you're not satisfied, return it within 60 days for a full refund."
           }
         },
         "dialect_notes_NHiwen": {
@@ -306,7 +306,7 @@
         "stack_FWjJJn": {
           "type": "stack",
           "settings": {
-            "stack_heading": "90% less than the designer price",
+            "stack_heading": "Up to 90% less than the designer price",
             "stack_subheading": "Without compromising on quality"
           }
         },
@@ -328,7 +328,7 @@
           "type": "stack",
           "settings": {
             "stack_heading": "Cruelty-free formula",
-            "stack_subheading": "Clean ingredients, safe for skin"
+            "stack_subheading": "Thoughtfully formulated"
           }
         },
         "stack_Va3wDh": {

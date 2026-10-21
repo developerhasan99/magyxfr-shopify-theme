@@ -79,7 +79,7 @@
           "type": "money_back",
           "settings": {
             "title": "Try it for 60 days, risk-free.",
-            "text": "Fewer than 0.5% of buyers use our money-back guarantee."
+            "text": "If you're not satisfied, return it within 60 days for a full refund."
           }
         },
         "people_purchased_cYxaYJ": {
@@ -281,7 +281,7 @@
         "stack_FWjJJn": {
           "type": "stack",
           "settings": {
-            "stack_heading": "90% less than the designer price",
+            "stack_heading": "Up to 90% less than the designer price",
             "stack_subheading": "Without compromising on quality"
           }
         },
@@ -303,7 +303,7 @@
           "type": "stack",
           "settings": {
             "stack_heading": "Cruelty-free formula",
-            "stack_subheading": "Clean ingredients, safe for skin"
+            "stack_subheading": "Thoughtfully formulated"
           }
         },
         "stack_Va3wDh": {
