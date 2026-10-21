@@ -84,29 +84,6 @@
             "show_gift_card_recipient": true
           }
         },
-        "subscribfy_block_product_page_vip_widget_PRD4ch": {
-          "type": "shopify://apps/subscribfy/blocks/block-product-page-Vip-widget/92b2aa79-0e8b-44a2-8415-48904e56b61e",
-          "settings": {
-            "join_title": "10% off with Tryscent+",
-            "join_you_save_label": "Buy more, save more • Monthly store credit • Early access to drops • Free perfumes",
-            "join_body_text": "<p>Buy more, save more • Monthly store credit • Early access to drops • Free perfumes</p>",
-            "non-member_title": "Shop at regular price",
-            "active_member_title": "10% off with Tryscent+",
-            "active_member_you_save_label": "You save",
-            "active_member_body_text": "<p>Buy more, save more • Monthly store credit • Early access to drops • Free perfumes</p>",
-            "custom_form_id": "product-form-[section.id]",
-            "color_member_price": "#000000",
-            "default_join": false,
-            "widget_template": "3",
-            "template3_control_style": "checkbox",
-            "member_badge_image": "shopify://shop_images/cGLuWmsD6gNb.png",
-            "always_show_widget": true,
-            "hide_discount_badge": true,
-            "hide_price": true,
-            "cart_item_title": "",
-            "cart_item_text": ""
-          }
-        },
         "atc_bundle_builder_aLJUaV": {
           "type": "atc_bundle_builder",
           "settings": {
@@ -216,7 +193,7 @@
           "settings": {
             "heading": "Is the inspired fragrance different?",
             "icon": "perfume",
-            "content": "<p>No — our inspired fragrances are designed as an <strong>exact copy</strong> of the originals from famous luxury brands. We carefully recreate the same fragrance structure, using identical scent notes and raw materials wherever possible.</p><p>✔️ <strong>1:1 fragrance impression</strong> – The scent is virtually indistinguishable from the original, even for experienced perfume lovers.<br/><br/>✔️ <strong>Same longevity and projection</strong> – Thanks to the high concentration of perfume oils (19-21%), our fragrances last just as long as the originals.<br/><br/>✔️ <strong>Affordable price, no compromise</strong> – You get the exact same olfactory experience without paying for the logo, marketing, or designer packaging.</p><p>In short: Our perfumes are identical to luxury brands in scent, quality, and durability — the only difference is the price.</p>",
+            "content": "<p>Yes — our fragrances are our own interpretation, created to offer a similar olfactory experience to the original. They are not identical copies.</p><p>✔️ <strong>Similar fragrance profile</strong> – Developed to capture the character of the original using a comparable fragrance structure.<br/><br/>✔️ <strong>Comparable longevity and projection</strong> – Thanks to a high concentration of perfume oils (19-21%), our fragrances are built to last.<br/><br/>✔️ <strong>Affordable price</strong> – You get a similar olfactory experience without paying for the logo, marketing, or designer packaging.</p><p>In short: our perfumes are inspired by the original's scent profile, not identical to it — the goal is a comparable experience at a fraction of the price.</p>",
             "page": ""
           }
         },
@@ -243,7 +220,7 @@
           "settings": {
             "heading": "COMPARATIVE ADVERTISING DISCLAIMER",
             "icon": "star",
-            "content": "<p>Please be aware that products mentioned throughout our site are a mere guide and in no circumstance should be mistaken for the actual high street, designer or Niche brand. Names and copyrights, used or unused, are properties of their respective manufacturers and/or designers. <br/><br/>These are simply inspirations, and are not ‘identical’ to any other fragrance or original.<br/><br/>Tryscent perfumes are not to be confused with originals and we have no affiliation with the manufacturers of these unnamed designer brands. <br/><br/>All ‘Trademarks’, used or unused, are property of their respective owners. We are not endorsed by, directly affiliated with, maintained, authorised, or sponsored by any trademark holder referenced or unreferenced herein. <br/><br/>The use of any product name is for identification and reference purposes only, and does not imply any association with the trademark holder.</p>",
+            "content": "<p>Please be aware that products mentioned throughout our site are a mere guide and in no circumstance should be mistaken for the actual high street, designer or Niche brand. Names and copyrights, used or unused, are properties of their respective manufacturers and/or designers. <br/><br/>These are simply inspirations, and are not ‘identical’ to any other fragrance or original.<br/><br/>Magyx perfumes are not to be confused with originals and we have no affiliation with the manufacturers of these unnamed designer brands. <br/><br/>All ‘Trademarks’, used or unused, are property of their respective owners. We are not endorsed by, directly affiliated with, maintained, authorised, or sponsored by any trademark holder referenced or unreferenced herein. <br/><br/>The use of any product name is for identification and reference purposes only, and does not imply any association with the trademark holder.</p>",
             "page": ""
           }
         },
@@ -269,7 +246,6 @@
         "text_GrNJKg",
         "quantity_selector",
         "buy_buttons",
-        "subscribfy_block_product_page_vip_widget_PRD4ch",
         "atc_bundle_builder_aLJUaV",
         "money_back_cEqkRK",
         "dialect_notes_NHiwen",
